@@ -1,0 +1,95 @@
+/*fonts and colors*/
+
+body {
+	background-color: rgb(218, 198, 181);
+	color: rgb(64, 50, 51);
+	font-family: 'Mukta', sans-serif;
+	font-size: 17px;
+}
+
+h1 {
+	color: rgb(47, 25, 33);
+	font-family: 'Rokkitt', serif;
+	font-weight: 100;
+	font-size: 40px;
+
+}
+
+h2 {
+	color: rgb(64, 50, 51);
+	font-family: 'Rokkitt', serif;
+	font-size: 22px;
+
+}
+
+a {
+	text-decoration: none;
+	color: rgb(160, 140, 144);
+}
+
+a:hover {
+	color: rgb(199, 80, 0);
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 720px) {
+
+	.container {
+		width: 600px;
+	}
+
+}
+
+@media (max-width: 500px) {
+
+	.container {
+		width: 400px;
+	}
+
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0,1);
+	border-radius: 4px;
+	margin: 20px;
+	text-align: center;
+}
+
+.btn-orange {
+	background-color: rgb(160, 140, 144);
+	color: white;
+	padding: 10px 15px;
+	border-radius: 4px;
+}
+
+.btn-orange:hover {
+	background-color: rgb(199, 80, 0);
+	color: white;
+
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+
+}
+
+.list-inline i {
+	font-size: 50px;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
